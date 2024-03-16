@@ -1,0 +1,94 @@
+* {
+    margin: 0%;
+    box-sizing: 0;
+    background-color: rgb(24, 30, 63);
+}
+
+.contact {
+    border: 1px solid white;
+    border-radius: 9px;
+    width: 115px;
+    height: 45px;
+    margin-top: 10px;
+    color: #ffffff;
+}
+
+.link a 
+{
+    color: #ffffff;
+}
+
+.active-link
+{
+    color: orange;
+}
+
+.img-border
+{
+    height: 445px;
+    width: 445px;
+    background: url("/img/test.png") no-repeat center;
+    background-size: cover;
+}
+
+.heroSection
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 45px;
+}
+.heroSection h1
+{
+    color: #ffffff;
+}
+
+.heroSection p
+{
+    color: gray;
+}
+
+.little-heroSection
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap : 15px;
+    margin-right: 125px;
+}
+
+.little-heroSection button
+{
+    border-radius: 9px;
+    padding: 15px 15px;
+    width: 145px;
+    height: 55px;
+    background: rgb(242,159,0);
+    background: linear-gradient(90deg, rgba(242,159,0,1) 15%, rgba(242,116,5,1) 63%, rgba(242,48,5,1) 100%);
+    color: #ffffff;
+}
+
+.little-heroSection i
+{
+    font-size: 35px;
+    color:rgb(255, 178, 35) ;
+}
+
+.little-heroSection a
+{
+    color: rgb(255, 178, 35);
+    font-size: 18px;
+}
+
+.card p
+{
+    color: #ffffff;
+}
+
+.copy {
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
